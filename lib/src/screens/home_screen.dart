@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:designs_app/widgets/card_table.dart';
 import 'package:designs_app/widgets/background.dart';
 import 'package:designs_app/widgets/page_title.dart';
 import 'package:designs_app/widgets/custom_bottom_navigation.dart';
@@ -20,7 +21,7 @@ class _HomeBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return SingleChildScrollView(
       child: Column(
-        children: [PageTitle()],
+        children: [PageTitle(), CardTable()],
       ),
     );
   }
